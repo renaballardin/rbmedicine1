@@ -307,7 +307,7 @@
 
 /* Vista desktop */
 
-@media only screen and (min-width: 490px) and (max-width: 1024px){
+@media only screen and (min-width: 490px) and (max-width: 1204px){
 
 .headerNosotros{
     min-height: 100px;
@@ -332,7 +332,11 @@
 }
 
 .backgroundImg1{
-    background-position: 0;
+    background-position: 0px;
+}
+
+.backgroundImg2{
+    background-position: -100px;
 }
 .contenido1{
     grid-column: 1/3;
