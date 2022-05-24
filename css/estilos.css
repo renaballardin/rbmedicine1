@@ -748,16 +748,23 @@ main h3{
 /*PAGINA: TRATAMIENTOS*/
 
 .tratamientos{
+    min-height: 50px;
+    background-image: linear-gradient(to bottom, #c4c5c7 0%, #dcdddf 42%, #ebebeb 90%);
+}
+
+.tituloPrincipal{
     font-family:'Cinzel', serif;
+    font-size: 30px;
     text-align: center;
-    letter-spacing: 6px;
-    background-color: #f2f4f2;
+    letter-spacing: 3px;
+    animation: bounceInDown;
+    animation-duration: 1.5s;
 }
 
 
 .titulo{
     font-family:'Zen Kaku Gothic Antique', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-left: 5px;
     text-align: left;
@@ -767,12 +774,12 @@ main h3{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 70px;
 }
 
 .caja{
-    width: 300px;
+    width: 350px;
     height: 300px;
     text-align: center;
     margin: 40px;
@@ -780,7 +787,7 @@ main h3{
 }
 
 .caja img{
-    width: 300px;
+    width: 350px;
     height: 300px;
     border-radius: 10px;
 }
@@ -796,6 +803,34 @@ main h3{
 .caja:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 }
+
+@media only screen and (min-width: 680px) and (max-width: 1200px){
+
+    .tratamientos{
+        min-height: 55px;
+    }
+
+    .tituloPrincipal{
+        font-size: 35px;
+        letter-spacing: 4px;
+    }
+
+    .titulo{
+        font-size: 24px;
+    }
+
+    .caja{
+        width: 250px;
+        height: 305px;
+    }
+
+    .caja img{
+        width: 250px;
+        height: 305px;
+    }
+}
+
+
 
 /* PAGINA: PROMOCIONES*/
 
