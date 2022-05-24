@@ -854,29 +854,37 @@ main h3{
     padding: 15px;
     margin-left: 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
     animation: backInLeft;
     animation-duration: 1.5s;
 }
 
+
 .tablaContenedora{
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    text-align: center;
+    animation: backInLeft;
+    animation-duration: 1.5s;
 }
 
+
 .encabezadoTabla{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-size: 15px;
     font-weight: bolder;
+    text-align: center;
     background-color: #AED6F1;
 }
 
-.encabezadoTabla th{
-    padding: 15px;
+
+.subtitulo{
+    padding: 20px;
+    margin-left: 130px;
 }
 
-.infoTabla{
-    font-size: 13px;
-    font-weight: 700;
+tr td{
+    padding: 10px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
+
 
 .proximasPromos{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
