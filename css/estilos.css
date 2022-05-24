@@ -830,51 +830,60 @@ main h3{
     }
 }
 
-
-
 /* PAGINA: PROMOCIONES*/
+
+.headerPromociones{
+    min-height: 50px;
+    background-image: linear-gradient(to bottom, #c4c5c7 0%, #dcdddf 42%, #ebebeb 90%);
+}
 
 .tituloPromociones{
     font-family:'Cinzel', serif;
+    font-size: 30px;
     text-align: center;
-    letter-spacing: 6px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    animation: bounceInDown;
+    animation-duration: 1.5s;
 }
 
 .subtituloPromociones{
-    font-size: 25px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 20px;
     font-weight: bolder;
+    padding: 15px;
     margin-left: 30px;
     margin-top: 20px;
+    animation: backInLeft;
+    animation-duration: 1.5s;
 }
 
 .tablaContenedora{
-    margin-left: 90px;
-    padding: 20px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     text-align: center;
 }
 
 .encabezadoTabla{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bolder;
     background-color: #AED6F1;
 }
 
+.encabezadoTabla th{
+    padding: 15px;
+}
+
 .infoTabla{
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 700;
 }
 
-
 .proximasPromos{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 600;
     margin-top: 40px;
     margin-bottom: 60px;
-    margin-right: 700px;
-    background-color: #AED6F1;
     border-radius: 20px;
 }
 
